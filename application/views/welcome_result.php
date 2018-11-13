@@ -34,7 +34,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</tr>
 			<tr>
 				<td><em>Day</em></td>
-				<td><?php echo $say ?></td>
+				<td><?php echo $day ?></td>
 			</tr>
 		</table>
 	</div>
