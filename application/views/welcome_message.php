@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Dushyant Dubaria</title>
+	<title>Library Booking</title>
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/jquery-ui.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/styles.css">
@@ -20,7 +20,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 <div class="container">
 	<div class="row">
-		<p>Please fill the following form to book a  ticket</p>
+		<p>Please fill the following form to book a room</p>
 	</div>
 	<div class="row">
 	<form action="/welcome/book" method="POST">
@@ -29,17 +29,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
 	  </div>
 	  <div class="form-group">
-		<label for="passengers">Number of passengers</label>
-		<select class="form-control" name="passengers" id="passengers">
-		  <option>1</option>
-		  <option>2</option>
-		  <option>3</option>
-		  <option>4</option>
+		<label for="room">room</label>
+		<select class="form-control" name="room" id="room">
+		  <option>110</option>
+		  <option>220</option>
+		  <option>320</option>
+		  <option>420</option>
 		</select>
 	  </div>
 	  <div class="form-group">
-	  	<label for="departure">Departure date</label>
-	  	<input type="text" id="datepicker" name="departure">
+	  	<label for="day">Day</label>
+	  	<input type="text" id="datepicker" name="day">
 	  </div>
 	  <button type="submit" class="btn btn-primary">Submit</button>
 </form>
@@ -48,12 +48,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</div>
 	</div>
 	<div class="row">
-                <h5><i>...    You either die a hero or you live long enough to see yourself become the villain.</h5>
+                <h5><i>...    Thank you.</h5>
 	</i></div>
         <div class="row">
 		
 	<div class="row">
-                <h5><i>......    It's not about money, it's about sending a message. Remember everything burns away!!!</h5>
+                <h5><i>......    Remember everything burns away!!!</h5>
 	</i></div>
         <div class="row">
 
