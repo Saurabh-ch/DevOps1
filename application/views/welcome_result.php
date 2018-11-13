@@ -29,12 +29,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<td><?php echo $email ?></td>
 			</tr>
 			<tr>
-				<td><em>Number of passengers</em></td>
-				<td><?php echo $passengers ?></td>
+				<td><em>Room</em></td>
+				<td><?php echo $room ?></td>
 			</tr>
 			<tr>
-				<td><em>Departure date</em></td>
-				<td><?php echo $departure ?></td>
+				<td><em>Day</em></td>
+				<td><?php echo $say ?></td>
 			</tr>
 		</table>
 	</div>
